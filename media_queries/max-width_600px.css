@@ -1,0 +1,133 @@
+@media (max-width: 37.5rem) { /* 600px*/
+
+
+    header {
+        
+    }
+
+
+    /*#################### Menu ####################*/
+  
+    
+    #menu {
+        
+        display: block;         
+        position: absolute;
+        width: 100%;        
+        top: 0;
+        right: 0px;
+        background-color: #111010e8;
+        height: 70px;        
+        z-index: 1000;
+        transition: .6s;
+        visibility: hidden;
+        overflow-y: hidden;
+        
+
+    }
+
+    #nav.active #menu {  
+        visibility: visible;        
+        height: 100vh ;
+       
+    }
+
+    #menu a{        
+        font: 700 2rem var(--title-font);         
+                
+        line-height: 4rem;
+
+    }
+
+    #nav .start {
+        margin-top: 50%;
+    }
+    
+
+    
+
+    #btn-mobile {
+        display: flex;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background:none;
+        cursor: pointer;
+        gap: .5rem;
+        color: #fff;
+    }
+
+    #hamburguer {
+        z-index: 10000;
+        border-top: 3px solid;
+        width: 20px;
+
+        
+        
+    }
+
+    #hamburguer::after, #hamburguer::before{
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+
+    #nav.active #hamburguer {
+        border-top-color: transparent;
+
+    }
+
+    #nav.active #hamburguer::before {
+        transform: rotate(135deg);
+
+
+    }
+
+    #nav.active #hamburguer::after {
+        transform: rotate(-135deg);
+        top: -7px;
+
+    }
+
+    /*#################### MAIN/SLIDER ####################*/
+    
+    .swiper-slide img {
+        display: block;
+        width: 600px;
+        height: 600px;
+        object-fit: cover;
+      }
+
+      .swiper-pagination { 
+          display:none;
+      }
+
+      .box-text {            
+        text-align: left;
+        margin-left: 3rem;
+        top: 10rem;
+        width: 70%;    
+        position:absolute;    
+        color: var(--font-color);
+        font-size: 1.1rem;
+      }      
+
+      .modalities { /* title-modalities */
+        top: 18%;
+      }
+
+      /*#################### section-content ####################*/
+
+      .container {
+        --margin-item: 5%; 
+      }
+
+      .box-subtitle {
+          right: 3.2%;
+      }
+}

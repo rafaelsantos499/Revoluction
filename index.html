@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revoluction</title>
+
+    <!-- ################# STYLES ################# --> 
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    
+
+    <!-- ################# MEDIA QUERIES ################# --> 
+
+    <link rel="stylesheet" href="media_queries/min-wdth_1200px.css" media="screen and (min-width: 1200px)" />
+    <link rel="stylesheet" href="media_queries/max-width_600px.css" media="screen and (max-width: 600px)" />   
+     
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+
+    <!-- ################# HEADER ################# --> 
+
+    <header >  
+        <div id="header-content">
+
+            <!-- ################# LOGO ################# --> 
+
+            <div class="logo-home">
+
+          <a href="#" id="logo">LOGO </a>
+
+        </div>
+
+          <!-- ################# MENU ################# --> 
+
+        <nav id="nav">
+           
+            <!-- ################# BUTTON MOBILE ################# --> 
+            
+            <button id="btn-mobile"             
+            aria-label="Abrir Menu" 
+            aria-haspopup="true" 
+            aria-controls="menu" 
+            aria-expanded="false">Menu<span id="hamburguer"></span>
+            </button>
+
+           <ul id="menu" role="menu">
+               <li><a class="start" href="#section">Planos</a></li>
+               <li><a href="#">Serviços</a></li>
+               <li><a href="#">Sobre</a></li>
+               <li><a href="#">Contato</a></li>
+           </ul>
+        </nav>
+
+    </div>
+    </header>
+  
+    <!-- ################# MAIN ################# --> 
+
+    <main>
+        <div class="swiper-container mySwiper">  
+                  
+            <div class="swiper-wrapper">
+               
+              <div class="swiper-slide"> 
+                
+                  <img src="images/IMAGE_1.jpg" alt="">                    
+                                 
+                  <div class="box-text">                      
+                     <div class="pagination"><div class="swiper-pagination"></div>  
+                      </div>
+
+                    <div class="text">
+
+                      <h1>Musculação</h1>
+                      A Musculação é uma atividade que traz incontáveis benefícios ao praticante. Os principais: ganho de força, massa muscular e óssea.<br>
+                      Acontece que ela não resolve todos os problemas, pois trabalha o corpo de forma segmentada o que, pode acentuar e até causar outros problemas, caso o praticante não tenha uma base bem trabalhada.
+                      </div>
+                  
+                </div>
+
+              
+              </div>
+              
+              <div class="swiper-slide">
+                <img src="images/IMAGE_2.jpg" alt="">
+
+                <div class="box-text">                      
+                  <div class="pagination"><div class="swiper-pagination"></div>  
+                   </div>
+
+                 <div class="text">
+
+                   <h1>Pilates</h1>
+                   Aula realizada com aparelhos especiais, em sala climatizada, com horário marcado.<br>
+
+                    Fortalecimento muscular, com ênfase no core (região central do corpo). Melhoria da consciência corporal, flexibilidade e postura.
+                         </div>
+               
+             </div>
+
+              </div>
+              
+              
+              
+              
+              <div class="swiper-slide">
+                <img src="images/IMAGE_3.jpg" alt="">
+
+                <div class="box-text"> 
+
+                  <div class="pagination"><div class="swiper-pagination"></div>  
+                   </div>
+
+                 <div class="text">
+                   <h1>Boxe</h1>
+                   O boxe é um esporte que ganhou uma enorme popularidade nos últimos anos devido a todos os seus benefícios, tanto para o corpo, quanto para a mente.</div>
+               
+             </div>
+              </div>             
+            </div>
+            
+            <div class="modalities"><h1 class="title-modalities">Varias &nbsp <span>Modalidades </span></h1> </div>  
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            
+            
+          </div>
+    </main>
+
+    <!-- ################# ASIDE ################# --> 
+   
+
+    
+
+    <!-- ################# SECTION ################# --> 
+
+    <section id="section">     
+
+        <aside class="aside">
+            
+        </aside>
+
+        <div class="section-content">
+
+          <section class="container flex">
+            <div class="flex-item-1">
+              <div class="title">
+                <div class="box-subtitle"><h2>Plano</h2></div>
+              <h1 class="box-title">MUSCULAÇÃO</h1>              
+            </div> 
+            <div class="content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, nobis eos alias ad perferendis tempora voluptatum minus. Assumenda qui debitis eum odio, ipsam nostrum nemo dolore est veritatis fugit hic.
+
+              </p>
+            </div>
+          </div>
+
+          <div class="flex-item-2">
+            <div class="title">
+              <div class="box-subtitle"><h2>Plano</h2></div>
+            <h1 class="box-title">PILATES</h1>              
+          </div> 
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, nobis eos alias ad perferendis tempora voluptatum minus. Assumenda qui debitis eum odio, ipsam nostrum nemo dolore est veritatis fugit hic.
+
+            </p>
+          </div>
+        </div>
+
+        <div class="flex-item-3">
+          
+          <div class="title">
+            <div class="box-subtitle"><h2>Plano</h2></div>
+          <h1 class="box-title">BOXE</h1>              
+        </div> 
+        <div class="content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, nobis eos alias ad perferendis tempora voluptatum minus. Assumenda qui debitis eum odio, ipsam nostrum nemo dolore est veritatis fugit hic.
+
+          </p>
+        </div>
+      </div>   
+          
+        </div>
+    
+    </section>
+
+
+
+
+<!-- ################# FOOTER ################# --> 
+
+
+    <footer class="footer">
+
+        <div class="footer-info">  
+           
+            <div class="content"> footer-info </div>     
+                  
+        </div>
+
+      <div class="footer-copyright">
+
+       
+        <div class="content">footer-copyright</div>
+        
+      </div>
+
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+    
+    
+</body>
+
+
+</html>
