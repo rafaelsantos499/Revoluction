@@ -72,7 +72,7 @@ header {
     justify-content: space-between;    
 }
 
-#header-content li a {
+#header-content li a{
     color: var(--font-color);
     text-decoration: none;
     font: 700 1.1rem var(--body-font);
@@ -81,8 +81,12 @@ header {
       
 }
 
+#menu a {
+    display: block;
+    padding: .5rem;
+}
 
-#header-content a:hover{
+#menu a:hover{
     border-bottom: 2px solid var(--theme-color);  
     font: 700 1.2rem var(--body-font);
     
@@ -95,10 +99,7 @@ header {
     gap: .5rem;    
 }
 
-#menu a {
-    display: block;
-    padding: .5rem;
-}
+
 
 #btn-mobile {
     display: none;
@@ -291,12 +292,12 @@ section {
 
 .box-subtitle {
     position: relative;
-    width: 8rem;  
+    width: 70%;     
     display:flex;     
     background: #d52b1e;
     justify-content: center;
     align-items: center;    
-    font: 700 1.3rem var(--title-font);  
+    font: 700 .8rem var(--title-font);  
     top: -40%;
     color:#ffffff;   
     right: 5%;   
@@ -316,9 +317,46 @@ section {
 }
 
 .plan-info {
-    padding: 1.5rem;
+    padding: 1.5rem;  
+    
     
 }
+
+.plan-info ul {
+    list-style: none;
+    
+}
+
+.icon-star {
+    margin-right: 0.3rem;
+    color: #eaee0c;
+    
+}
+
+.know-more {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;  
+    height: 3rem;  
+}
+
+.know-more button{
+    border: 0;
+    height: 50px;
+    padding: 1rem;
+    background-color:#d52b1e;
+    color:#fff;
+    font: 700 1rem var(--body-font);
+    border-radius: .5rem;
+    box-shadow: 0 5px 10px 0 rgb(0 0 0 / 10%);
+    cursor: pointer;
+}
+
+.know-more button:hover {
+    
+    background-color:#d34237;
+}
+
 
 
 

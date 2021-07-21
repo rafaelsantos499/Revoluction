@@ -32,16 +32,34 @@
        
     }
 
-    #menu a{        
-        font: 700 2rem var(--title-font);         
-                
-        line-height: 4rem;
-
+    #menu li {
+        
+        display:flex;
+        justify-content: center;
+        
+        
     }
 
-    #nav .start {
+    #menu li:nth-child(1){
         margin-top: 50%;
     }
+
+    #menu li a{                  
+        font: 700 1.6rem var(--title-font); 
+        line-height: 4rem;
+        
+        
+    }
+
+    
+    #menu li a:hover{
+        border: 0px solid;
+        color: var(--theme-color);      
+        font: 700 1.6rem var(--title-font); 
+        
+    }
+
+    
     
 
     
