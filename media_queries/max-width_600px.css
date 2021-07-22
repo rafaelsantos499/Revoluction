@@ -38,15 +38,18 @@
         justify-content: center;
         
         
+        
     }
 
     #menu li:nth-child(1){
         margin-top: 50%;
     }
 
-    #menu li a{                  
-        font: 700 1.6rem var(--title-font); 
-        line-height: 4rem;
+    #menu  a{    
+        letter-spacing: .2rem;              
+        font: 700 5rem var(--title-font); 
+        margin-bottom: 2rem;
+        
         
         
     }
@@ -149,5 +152,43 @@
           right: 3.2%;
       }
 
-     
-}
+      /*#################### ASIDE ####################*/
+
+     .aside {
+        max-height: 100%; 
+        width: 100%;
+        transform: translateX(0); 
+        border-radius: 0;
+     }
+
+     .promotion {
+         margin-left: 0;
+         width: 100%;
+         height: 3rem;
+         font: 700 1.7rem var(--title-font);
+     }
+
+     .header-title .title-combo {           
+        margin-top: 8rem; 
+        margin-left: 17%; 
+        
+    }
+
+     .promotion::before {
+         visibility: hidden
+     }
+
+     .text-combo .know-more {
+         
+        margin-top: 5rem;
+     }
+
+     .footer-info {
+         padding: 0 2rem;
+     }
+
+     .footer-logo {
+         display: none;
+     }
+
+    }
