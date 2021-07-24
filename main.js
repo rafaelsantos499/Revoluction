@@ -22,10 +22,10 @@ btnMobile.addEventListener('touchstart',toggleMenu);
 var swiper = new Swiper(".mySwiper", {
     spaceBetween: 30,
     centeredSlides: true,
-    autoplay: {
-     delay: 8000,
-    disableOnInteraction: false,
-   },
+    //autoplay: {
+    // delay: 8000,
+    //disableOnInteraction: false,
+  // },
     
     pagination: {
       el: ".swiper-pagination",

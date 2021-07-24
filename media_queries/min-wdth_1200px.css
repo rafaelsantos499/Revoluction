@@ -6,6 +6,15 @@
         display: grid;
     }
 
+    /*#################### SOCIAL MEDIA####################*/
+
+    .social-media-section {
+        display: none;
+    }
+
+    .social-media-menu {
+        display: none;
+    }
 
     /*#################### HEADER ####################*/
 
@@ -16,9 +25,6 @@
     
 
     /*#################### FOOTER ####################*/
-
-    
-
 
     .footer .content {      
        max-width: 75rem;      
